@@ -1,0 +1,228 @@
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Robert Edwards
+    tagline: Staff Software Engineer 
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    # email: email@sample.com
+    github: rcedwards
+    website: rcedwards.github.io #do not add http://
+    # phone: 555.555.5555
+    linkedin: roberted
+    twitter: '@rc_edwards'
+    stack-overflow: 4829855/rcedwards
+    goodreads: 53323855-robert-edwards
+    # gitlab:
+    # bitbucket:
+    # codewars:
+
+    # languages:
+    #   - idiom: English
+    #     level: Native
+
+    interests:
+      - item: Running / Cycling
+        link: https://www.strava.com/athletes/12815754
+
+      - item: Reading
+        link: https://www.goodreads.com/user/show/53323855-robert-edwards
+
+      - item: Photography
+        link: https://www.flickr.com/people/rcedwards/
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Hi 👋, I'm Robert.
+      I'm a staff software engineer specializing in mobile development on iOS.
+      I've worked on a variety of applications over the years, ranging from small startups starting from scratch to Fortune 10 companies.
+      I'm particularly interested in building strong teams through collaboration, trust, and purposeful process.
+      Lastly I'm a lifelong learner who loves to pour over new topics to learn more about just about anything and everything. 
+
+education:
+    - degree: BBA - Information Systems
+      university: Georgia State University
+      time: 2007 - 2010
+
+experiences:
+    - role: Staff Software Engineer
+      time: May 2021 - Current
+      company: The New York Times, New York, NY
+      link: https://nytimes.com
+      details: |
+          - Working on driving subscriber growth on our suite of [iOS Apps](https://apps.apple.com/us/developer/the-new-york-times-company/id284862086)
+    - role: Senior Software Engineer II / Platform Lead
+      time: June 2018 - April 2021
+      company: onXmaps, Bozeman, MT
+      link: https://onxmaps.com
+      details: |
+          - Scaled the iOS team up from 2 to 6 engineers.
+          - Established a code review, continuous integration, and release process.
+          - Developed daily and beta distribution systems for our apps.
+          - Mentored junior to mid-level engineers.
+          - Launched the company’s second product offering ([onXmaps Offroad](https://apps.apple.com/us/app/onx-offroad/id1475112177))
+          - Introduced 2 major features to the products:
+            - Sharing of user generated map markups
+            - Weather Annotations and Detailed Forecasts
+          - Developed interview screeners, take home tests and onsite projects from scratch.
+          - Lead an effort to reduce crash rates from 96% to 99% crash free sessions.
+          - Helped define a new engineering organization team structure.
+    - role: Senior Software Engineer
+      time: July 2014 - March 2018
+      company: Big Nerd Ranch, Atlanta, GA
+      link: https://bignerdranch.com
+      details: |
+          - Worked on 4 iOS projects for clients:
+            - Primary committer on 2 new iOS projects for Atlanta based startups.
+            - Created Video on Demand offering for [CNN News](https://www.cnn.com/specials/about-live-tv).
+            - Worked on team to create initial release of the [Apple Support App](https://apps.apple.com/us/app/apple-support/id1130498044).
+          - Developed 2 open-source projects from scratch and contributed to other company projects. 
+          - Defined a process for continuous integration, release management, documentation, issue tracking, and promoting our projects.
+          - Contributing Editor on [Swift Programming: The Big Nerd Ranch Guide](https://amzn.to/2p8GasD)
+          - Authored a number of posts on the [Big Nerd Ranch Blog](https://www.bignerdranch.com/blog/category/authors/robert-edwards/).
+          - Taught Swift and iOS at major enterprise software companies.
+    - role: Senior Software Engineer
+      time: April 2014 - July 2014
+      company: Autotrader.com, Atlanta, GA
+      link: https://autotrader.com
+      details: |
+          - Built continuous integration suite using Stash, Jenkins, and TestFlight from the ground up. 
+          - Worked on a native iOS replacement to existing hybrid application.
+    - role: iOS Team Lead
+      time: February 2012 - March 2014
+      company: AirWatch, Atlanta, GA
+      link: https://air-watch.com
+      details: |
+          - Led development of company’s iOS content management product the [Secure Content Locker](https://itunes.apple.com/us/app/vmware-content-locker/id525890839).
+          - Responsible for managing a team of 3 developers in the United States and 4 in India.
+          - Optimized file syncing operations through the use of multi-threaded Core Data.
+          - Developed jailbreak detection logic shared across company’s app suite.
+          - Developed a Javascript testing library helping QA team to create custom UI automation tests.
+          - Created and documented git branching structure for development and release management.
+    - role: Professional Applications Developer
+      time: June 2010 - February 2012
+      company: AT&T, Atlanta, GA
+      link: https://att.com
+      details: |
+          - Worked on both Android and iOS versions of an application for troubleshooting equipment.
+          - Created tool monitoring Java backend services’ health using BIRT reporting framework.
+          - Replaced a legacy VisualBasic/ASP.NET application with Groovy/Grails implementation.
+
+projects:
+    title: Projects
+    intro: |
+    assignments:
+      - title: The New York Times
+        link: "https://apps.apple.com/us/app/the-new-york-times/id284862083"
+        tagline: "We seek the truth and help people understand the world."
+
+      - title: Apple Support App
+        link: "https://apps.apple.com/us/app/apple-support/id1130498044"
+        tagline: "Apple Support app is your personalized guide to the best options from Apple."
+      
+      - title: onXmaps Hunt, Offroad, and Backcountry
+        link: "https://apps.apple.com/us/developer/onxmaps-inc/id636558832"
+        tagline: "Know where you stand with the most trusted and accurate map data."
+
+      - title: CNNgo for iOS
+        link: "https://www.cnn.com/specials/about-live-tv"
+        tagline: "CNN's live tv and on-demand content offering."
+
+      - title: Roadie
+        link: "https://apps.apple.com/us/app/roadie-driver/id1436325695"
+        tagline: "Roadie is an on-the-way delivery service that connects people with stuff to send to drivers already heading that way."
+
+      - title: AirWatch Content Locker
+        link: "https://itunes.apple.com/us/app/vmware-content-locker/id525890839"
+        tagline: "Brings you secure access to all of your files anytime, anywhere, across your devices."
+
+      - title: Autotrader.com
+        link: "https://itunes.apple.com/us/app/autotrader-shop-all-the-cars/id700740807"
+        tagline: "The ultimate automotive marketplace is now in your hands."
+
+opensource:
+    title: Open Source
+    intro: |
+    projects:
+      - title: CoreData Stack
+        link: "https://github.com/bignerdranch/CoreDataStack"
+        tagline: "The BNR Core Data Stack is a small Swift framework that makes it both easier and safer to use Core Data."
+      - title: macOS Bootstrap Script
+        link: "https://github.com/bignerdranch/macOS-bootstrap"
+        tagline: "A bootstrap script for configuring machine to develop iOS, tvOS, and macOS."
+      - title: Type Erasure Playgrounds
+        link: "https://github.com/bignerdranch/type-erasure-playgrounds"
+        tagline: "Breaking down type erasure Swift Playgrounds."
+      - title: Freddy
+        link: "https://github.com/bignerdranch/Freddy"
+        tagline: "A reusable framework for parsing JSON in Swift."
+
+publications:
+    title: Blog Posts and Videos
+    intro: |
+    papers:
+      - title: Introducing the Open-Source Big Nerd Ranch Core Data Stack
+        link: "https://www.bignerdranch.com/blog/introducing-the-open-source-big-nerd-ranch-core-data-stack/"
+      - title: Everything You Need to Know About Ruby for iOS Development
+        link: "https://www.bignerdranch.com/blog/everything-you-need-to-know-about-ruby-for-ios-development/"
+      - title: Swift Symposium 2016 - Type Erasure in the CoreDataStack Talk
+        link: https://www.youtube.com/watch?v=d_FJHBl5ohU
+      - title: Breaking Down Type Erasure in Swift
+        link: "https://www.bignerdranch.com/blog/breaking-down-type-erasure-in-swift/"
+      - title: "New in Core Data and iOS 8: Batch Updating"
+        link: https://www.bignerdranch.com/blog/new-in-core-data-and-ios-8-batch-updating/
+      - title: "New in Core Data and iOS 8: Asynchronous Fetching"
+        link: https://www.bignerdranch.com/blog/new-in-core-data-and-ios-8-asynchronous-fetching/
+
+# skills:
+#     title: Skills &amp; Proficiency
+
+#     toolset:
+#       - name: Swift
+#       - name: xcconfig
+        # level: 98%
+
+      # - name: Javascript & jQuery
+      #   # level: 98%
+
+      # - name: Angular
+      #   # level: 98%
+
+      # - name: HTML5 & CSS
+      #   level: 95%
+
+      # - name: Ruby on Rails
+      #   level: 85%
+
+      # - name: Sketch & Photoshop
+      #   level: 60%
+
+# Technologies
+# Swift & Objective C
+# Core Data 
+# Operation Queues / GCD
+# XCTest
+# Bash
+# Javascript
+# Java/Groovy/Grails
+
+# Tools
+# Git
+# Fastlane
+# Carthage/Cocoapods
+# CircleCI/Travis
+# Jenkins/TeamCity
+# Xcode/LLDB/Instruments
+
+# Process
+# Code Reviews
+# Agile/Scrum Methodologies
+# Sprint Planning
+# Story Writing/Estimation
+
+footer: >
+    

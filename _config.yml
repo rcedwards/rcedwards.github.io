@@ -1,61 +1,31 @@
-# Site
-repository: sproogen/resume-theme
-favicon: images/favicon.ico
+#Update all the sections by editing the data.yml file inside _data folder.
 
-# Personal info
-name: Robert Edwards
-title: Senior Software Engineer (Mobile iOS)
-email: rcedwards@gmail.com
-website: https://rcedwards.github.io
+# Site Settings
+title: Robert Edwards
+url: 'https://rcedwards.github.io'
+baseurl: '' #change it according to your repository name
+# description: A beautiful Jekyll theme for creating resume
+theme_skin: ceramic # blue turquoise green berry orange ceramic
+chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
-# Social links
-github_username:  rcedwards
-linkedin_username: roberted
-# twitter_username: facespics
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: jekyll
-# googleplus_username: +jekyll
+# Tracker
+# analytics: UA-83979019-1
 
-# About Section
-# about_title: About Me
-about_profile_image: images/profile.png
-about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Robert Edwards a senior software engineer specializing in iOS mobile development.
-
-# I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
-
-# Projects Section
-# projects_title: Projects
-
-# Experience Section
-# experience_title: Experience
-
-# Education Section
-# educaton_title: Education
-
-# More Section
-more_title: Hobbies
-more_content: | # this will include new lines to allow paragraphs
-  
-# Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-   # - Rock climbing
-   # - Gaming
-   # - Knitting
-   # - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-# Footer
-footer_show_references: false
-
-# Build settings
-remote_theme: sproogen/resume-theme
-
+# Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-plugins:
- - jekyll-seo-tag
+# Build settings
+compress-site: yes
+
+encoding: "utf-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: all
+  ignore:
+    envs: development
+
+# Development Settings
+port: 4000
+host: 0.0.0.0
+safe: false

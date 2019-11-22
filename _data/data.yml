@@ -1,0 +1,187 @@
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Robert Edwards
+    tagline: Senior Software Engineer 
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: rcedwards@gmail.com
+    github: rcedwards
+    website: rcedwards.github.io #do not add http://
+    # phone: (404) 889 4218
+    linkedin: roberted
+    twitter: '@rc_edwards'
+    stack-overflow: 4829855/rcedwards
+    goodreads: 53323855-robert-edwards
+    # gitlab:
+    # bitbucket:
+    # codewars:
+
+    # languages:
+    #   - idiom: English
+    #     level: Native
+
+    interests:
+      - item: Running / Cycling
+        link: https://www.strava.com/athletes/12815754
+
+      - item: Reading
+        link: https://www.goodreads.com/user/show/53323855-robert-edwards
+
+      - item: Photography
+        link: https://www.flickr.com/people/rcedwards/
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Summarise your career here lorem ipsum dolor sit amet, consectetuer
+      adipiscing elit. You can [download this free resume/CV template here]().
+
+education:
+    - degree: BBA - Information Systems
+      university: Georgia State University
+      time: 2007 - 2010
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+
+experiences:
+    - role: Senior Software Engineer II / Platform Lead
+      time: June 2018 - Present
+      company: onXmaps, Bozeman, MT
+      link: https://onxmaps.com
+      details: |
+        [onXmaps](https://onxmaps.com)
+        TODO:
+          - Bullet point
+    - role: Senior Software Engineer
+      time: July 2014 - March 2018
+      company: Big Nerd Ranch, Atlanta, GA
+      link: https://bignerdranch.com
+      details: |
+        TODO:
+          - Worked on 4 iOS projects for clients:
+          - Primary committer on two new iOS projects for Atlanta based startups.
+          - Created Video on Demand offering for one of the top 10 news applications in the App Store.
+          - Worked on team to create initial release, and follow-up re-design, of a customer support application for a Fortune 10 consumer electronic company.
+          - Developed two open-source projects from scratch and contributed to other company projects. Defined a process for continuous integration, release management, documentation, issue tracking, and promoting our projects.
+          - Contributing Editor on Swift Programming: The Big Nerd Ranch Guide
+          - Authored a number of posts on the Big Nerd Ranch Blog.
+          - Taught Swift and iOS at major enterprise software companies.
+    - role: Senior Software Engineer
+      time: April 2014 - March 2018
+      company: Autotrader.com, Atlanta, GA
+      link: https://autotrader.com
+      details: |
+        TODO:
+          - Built continuous integration suite using Stash, Jenkins, and TestFlight from the ground up. 
+          - Worked on a native replacement to hybrid application.
+    - role: iOS Team Lead
+      time: February 2012 - July 2014
+      company: AirWatch, Atlanta, GA
+      link: https://air-watch.com
+      details: |
+        TODO:
+          - Led development of company’s iOS content management product the Secure Content Locker.
+          - Responsible for managing a team of 3 developers in the United States and 4 in India. 
+          - Optimized file syncing operations through the use of multi-threaded Core Data.
+          - Developed jailbreak detection logic shared across company’s app suite.
+          - Developed a Javascript testing library helping QA team to create custom UI automation tests
+          - Created and documented git branching structure for development and release management.
+    - role: Professional Applications Developer
+      time: June 2010 - February 2012
+      company: AT&T, Atlanta, GA
+      link: https://att.com
+      details: |
+        TODO
+          - Worked on both Android and iOS versions of an application for troubleshooting equipment.
+          - Created tool monitoring Java backend services’ health using BIRT reporting framework.
+          - Replaced a legacy VisualBasic/ASP.NET application with Groovy/Grails implementation.
+
+projects:
+    title: Projects
+    intro: >
+      
+    assignments:
+      - title: onXmaps Hunt / onXmaps Offroad
+        link: "https://apps.apple.com/us/developer/onxmaps-inc/id636558832"
+        tagline: ""
+
+      - title: Apple Support App
+        link: "https://apps.apple.com/us/app/apple-support/id1130498044"
+        tagline: "Apple Support app is your personalized guide to the best options from Apple."
+
+      - title: Roadie
+        link: "https://apps.apple.com/us/app/roadie-delivery/id943490654"
+        tagline: "Roadie is an on-the-way delivery service that connects people with stuff to send to drivers already heading that way."
+
+      - title: Humrun
+        link: "https://itunes.apple.com/us/app/humrun/id1110915974"
+        tagline: "TODO"  
+
+      - title: AirWatch Content Locker
+        link: "https://itunes.apple.com/us/app/vmware-content-locker/id525890839"
+        tagline: "TODO"
+
+      - title: CNNgo for iOS
+        link: "https://www.cnn.com/specials/about-live-tv"
+        tagline: "CNN's live tv and on-demand content offering."
+
+      - title: Autotrader.com
+        link: "https://itunes.apple.com/us/app/autotrader-shop-all-the-cars/id700740807"
+        tagline: "TODO"
+
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
+#     papers:
+#       - title: The Art of Computer Programming
+#         link: "#"
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
+
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         link: "#"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+#       - title: A syntax directed compiler for Algol 60
+#         link: "#"
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
+
+# skills:
+#     title: Skills &amp; Proficiency
+
+#     toolset:
+#       - name: Python & Django
+#         level: 98%
+
+#       - name: Javascript & jQuery
+#         level: 98%
+
+#       - name: Angular
+#         level: 98%
+
+#       - name: HTML5 & CSS
+#         level: 95%
+
+#       - name: Ruby on Rails
+#         level: 85%
+
+#       - name: Sketch & Photoshop
+#         level: 60%
+
+footer: >
+    

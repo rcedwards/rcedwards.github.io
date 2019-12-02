@@ -7,15 +7,31 @@
   </h2>
 
   <ul class="list-unstyled interests-list">
+    <li>Running / Cycling</li>
+
+    {% include strava.html %}<br />
+
+    <li>Reading</li>
+
+    {% include goodreads.html %}<br />
+
+    <li>Photography</li>
+
+    {% include flickr.html %}<br />
+
+<!-- Un-comment to restore interests
     {% for interest in interests %}
 
-      {% if interest.link %}
-      <li><a href="{{ interest.link }}">{{ interest.item }}</a></li>
-      {% else %}
-      <li>{{ interest.item }}</li>
-      {% endif %}
+    {% if interest.link %}
+    <li><a href="{{ interest.link }}">{{ interest.item }}</a></li>
+    {% else %}
+    <li>{{ interest.item }}</li>
+    {% endif %}
 
-    {% endfor %}
+    {% endfor %} 
+
+-->
+
   </ul>
 
 </div><!--//interests-->

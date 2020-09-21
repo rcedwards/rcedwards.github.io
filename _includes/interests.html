@@ -6,20 +6,26 @@
     Interests
   </h2>
 
-  <ul class="list-unstyled interests-list">
-    <li>Running / Cycling</li>
+  <h3 class="container-block-subtitle">Running / Cycling</h3>
 
-    {% include strava.html %}<br />
+  {% include strava.html %}
 
-    <li>Reading</li>
+  <br />
 
-    {% include goodreads.html %}<br />
+  <h3 class="container-block-subtitle">Reading</h3>
 
-    <li>Photography</li>
+  {% include goodreads.html %}
 
-    {% include flickr.html %}<br />
+  <br />
+
+  <h3 class="container-block-subtitle">Photography</h3>
+
+  {% include flickr.html %}
+
+  <br />
 
 <!-- Un-comment to restore interests
+  <ul class="list-unstyled interests-list">
     {% for interest in interests %}
 
     {% if interest.link %}
@@ -29,10 +35,8 @@
     {% endif %}
 
     {% endfor %} 
-
+</ul>
 -->
-
-  </ul>
 
 </div><!--//interests-->
 {% endif %}

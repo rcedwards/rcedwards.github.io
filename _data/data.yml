@@ -122,6 +122,9 @@ projects:
     title: Projects
     intro: |
     assignments:
+      - title: Google Drive
+        link: "https://apps.apple.com/us/app/google-drive/id507874739"
+        tagline: "Easy and secure access to your content."
       - title: The New York Times
         link: "https://apps.apple.com/us/app/the-new-york-times/id284862083"
         tagline: "We seek the truth and help people understand the world."

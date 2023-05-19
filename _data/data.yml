@@ -49,12 +49,18 @@ education:
       time: 2007 - 2010
 
 experiences:
+    - role: Software Engineer
+      time: June 2022 - Current
+      company: Google, Mountain View, CA
+      link: https://google.com
+      details: |
+          - Working on new features for [Google Drive](https://apps.apple.com/us/app/google-drive/id507874739).
     - role: Staff Software Engineer
-      time: May 2021 - Current
+      time: May 2021 - June 2022
       company: The New York Times, New York, NY
       link: https://nytimes.com
       details: |
-          - Working on driving subscriber growth on our suite of [iOS Apps](https://apps.apple.com/us/developer/the-new-york-times-company/id284862086)
+          - Developled a promotional In-App Purchase offer workflow to drive subscriber growth in our suite of [iOS Apps](https://apps.apple.com/us/developer/the-new-york-times-company/id284862086)
     - role: Senior Software Engineer II / Platform Lead
       time: June 2018 - April 2021
       company: onXmaps, Bozeman, MT
